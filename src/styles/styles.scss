@@ -1,0 +1,68 @@
+
+/* Header */
+
+.header img {
+  width: 8em !important;
+  height: 40px;
+  
+}
+#background {
+  padding-top: 102px;
+  background-color: #EEEEEE;
+}
+
+th.sorting{
+  background-color: #cce2ff1f;
+}
+
+div[data-test="table"] {
+  background-color: rgb(255, 253, 253);
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 253, 253);
+  border-bottom: 1px solid rgb(10, 10, 10);
+  box-shadow: 0px 1px #888888;
+}
+
+ div.ui.container {
+  margin: 10px 2%;
+  width: 94%;  
+}
+
+div.main-container {
+  margin-top: 60px !important;
+  padding: 20px 0px;
+  background-color: #EEEEEE;
+  
+}
+
+.no-top-margin {
+  margin-top: 0px !important;
+}
+
+div.main-container .tag-table tbody tr td:last-child:hover {
+  cursor: pointer;
+  
+}
+
+div.main-container .tag-table .align-center {
+  text-align: center;
+  
+}
+
+table span.hide {
+  display: none;
+  
+}
+
+table [data-content='Download usage state']:hover {
+  cursor: pointer;
+}
+
+td span {
+  width: 85%;
+  
+}
